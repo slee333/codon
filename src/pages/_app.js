@@ -9,9 +9,9 @@ function App(props) {
     <Router>
       <>
         <Switch>
-          <Route exact path="/codon/" component={IndexPage} />
-
-          <Route
+          <Route exact path="/" component={IndexPage} />
+          <Redirect from="*" to="/" />
+          {/* <Route
             component={({ location }) => {
               return (
                 <div
@@ -25,7 +25,7 @@ function App(props) {
                 </div>
               );
             }}
-          />
+          /> */}
         </Switch>
 
         <Footer
