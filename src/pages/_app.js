@@ -1,6 +1,7 @@
 import React from "react";
 import IndexPage from "./index";
 import { Switch, Route, Router } from "./../util/router.js";
+import { Redirect } from "react-router-dom";
 import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 
