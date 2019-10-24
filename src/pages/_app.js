@@ -9,7 +9,7 @@ function App(props) {
     <Router>
       <>
         <Switch>
-          <Route exact path="/" component={IndexPage} />
+          <Route exact path="/codon/" component={IndexPage} />
 
           <Route
             component={({ location }) => {
