@@ -10,8 +10,8 @@ function App(props) {
     <Router>
       <>
         <Switch>
-          <Route exact path="/" component={IndexPage} />
-          <Redirect from="*" to="/" />
+          <Route exact path="/codon" component={IndexPage} />
+          <Redirect from="*" to="/codon" />
           {/* <Route
             component={({ location }) => {
               return (
