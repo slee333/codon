@@ -19,7 +19,9 @@ function FaqItem(props) {
         {props.question}
       </div>
 
-      {expanded && <div className="subtitle">{props.answer}</div>}
+      {expanded && <div className="subtitle">{ 
+        props.answer.map(  ( each, i ) => (<span id={i} className={"text"}>{each}</span>) )
+        }</div>}
     </article>
   );
 }

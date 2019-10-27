@@ -2,6 +2,7 @@ import React from "react";
 import Section from "./Section";
 import SectionHeader from "./SectionHeader";
 import TeamBios from "./TeamBios";
+import Logo from "../styles/logo.svg"
 
 function TeamBiosSection(props) {
   return (
@@ -16,9 +17,10 @@ function TeamBiosSection(props) {
         <TeamBios
           people={[
             {
-              avatar: "https://cdn.worldvectorlogo.com/logos/kakaotalk.svg",
-              name: "카카오톡 ID : ",
-              role: "eaglee94"
+              avatar: Logo,
+              name: "코돈",
+              role: "카카오톡 플러스친구",
+              link: "http://pf.kakao.com/_qSmLT/chat"
             }
           ]}
         />

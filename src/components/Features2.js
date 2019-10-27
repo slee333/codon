@@ -13,12 +13,15 @@ function Features2(props) {
             <h3 className="Features2__title title has-text-weight-bold is-spaced is-3">
               {item.title}
             </h3>
-            <p className="subtitle">{item.description}</p>
-          </div>
-          <div className="column">
-            <figure className="Features2__image image">
-              <img src={item.image} alt={item.title} />
-            </figure>
+            <div className="column">
+              <figure className="Features2__image image">
+                <img src={item.image} alt={item.title} />
+              </figure>
+            </div>
+
+            {item.description.map(eachItem => (
+              <p className="subtitle">{eachItem}</p>
+            ))}
           </div>
         </div>
       ))}

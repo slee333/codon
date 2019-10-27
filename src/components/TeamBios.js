@@ -17,6 +17,7 @@ function TeamBios(props) {
               <p className="is-size-7 has-text-weight-semibold has-text-grey">
                 {person.role}
               </p>
+              <p><a className="is-size-7 has-text-weight-semibold has-text-grey" href={String(person.link)}>{person.link}</a></p>
             </div>
           </div>
         </div>

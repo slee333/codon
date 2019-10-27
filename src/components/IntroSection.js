@@ -16,23 +16,16 @@ function IntroSection(props) {
         <Features2
           items={[
             {
-              title: "코돈? 뭐 하는 덴가요?",
+              title: "코돈이 무엇인가요?",
               description:
-                "예비 의료인으로서 IT 기술이 가져올 미래 의료의 변화에 대해 고민해보고 이에 대한 지식과 견문을 쌓기를 목적으로 하는 의료 IT 소모임입니다!",
+                ["의과대학 IT 소모임입니다.", "IT 기술이 미래의료에 끼칠 영향을 끼칠지 이야기도 해보고 관련 지식도 쌓기를 목적으로 하는 학술모임이에요."],
               image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg"
             },
             {
-              title: ";; 더 쉬운 설명은 없나요?",
+              title: "쉽게 설명하자면?",
               description:
-                "간단히 말해 프로그래밍, 디지털 헬스 등에 관심 있는 사람들끼리 모여 이야기나누며 재밌게 시간 보내자는 모임입니다.",
+                ["프로그래밍, 디지털 헬스 등에 관심 있는 사람들끼리 모여 이야기 나누며 자기개발도 하고 재밌는 시간도 보내자는 취지의 모임입니다."],
               image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg"
-            },
-            {
-              title: "이 과정에서..",
-              description:
-                "기초적인 프로그래밍 지식도 함양하고 디지털 기술 발전이 미래 의료 환경에 어떤 영향을 미칠지 생각해보는 시간도 갖는다면 더 좋겠죠?!.",
-              image:
-                "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg"
             }
           ]}
         />

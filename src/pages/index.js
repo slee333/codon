@@ -4,6 +4,7 @@ import IntroSection from "./../components/IntroSection";
 import FeaturesSection from "./../components/FeaturesSection";
 import FaqSection from "./../components/FaqSection";
 import TeamBiosSection from "./../components/TeamBiosSection";
+import ForWhomSection from "./../components/ForWho"
 import { useRouter } from "./../util/router.js";
 
 function IndexPage(props) {
@@ -16,12 +17,18 @@ function IndexPage(props) {
         size="large"
         title="코돈"
         subtitle="경북대학교 의과대학 IT 소모임"
-        buttonText="연락하기"
-        buttonOnClick={() => {
-          router.push("/#contact");
-        }}
+        // buttonText="연락하기"
+        // buttonOnClick={() => {
+        //   router.push("/#contact");
+        // }}
       />
       <IntroSection color="white" size="medium" title="" subtitle="" />
+      <ForWhomSection
+        color="white"
+        size="medium"
+        title="모집"
+        subtitle="즉 이런 분들을 위해 만들어진 소모임입니다."
+      />
       <FeaturesSection
         color="white"
         size="medium"
@@ -35,10 +42,11 @@ function IndexPage(props) {
         subtitle="궁금하실 만한 내용을 모아 정리해봤어요."
       />
       <TeamBiosSection
+        id="contact"
         color="white"
         size="medium"
         title="연락처"
-        subtitle="더 궁금하거나 알고싶은 내용이 있다면 아래 연락처로 연락주세요."
+        subtitle="더 궁금하거나 알고싶은 내용이 있다면 아래 카카오톡 플러스친구를 통해 연락주세요."
       />
     </>
   );

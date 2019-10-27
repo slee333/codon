@@ -17,6 +17,7 @@ $body-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
   "Helvetica", "Arial", sans-serif;
 $title-family: false;
 $button-family: false;
+$font-family: 'Nanum Gothic Coding', monospace;
 
 // BREAKPOINTS
 $gap: 32px;
@@ -40,3 +41,6 @@ $section-padding-large: 9rem 1.5rem;
 
 // IMPORT FONT AWESOME
 @import url("https://use.fontawesome.com/releases/v5.10.1/css/all.css");
+
+// IMPORT Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap")

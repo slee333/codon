@@ -3,7 +3,7 @@ import IndexPage from "./index";
 import { Switch, Route, Router } from "./../util/router.js";
 import { Redirect } from "react-router-dom";
 import Footer from "./../components/Footer";
-import "./../util/analytics.js";
+import "./../util/analytics.js"; 
 
 function App(props) {
   return (
@@ -29,12 +29,18 @@ function App(props) {
           /> */}
         </Switch>
 
-        <Footer
+        {/* <Footer
           color="light"
           size="normal"
           logo="https://uploads.divjoy.com/logo.svg"
           copyright="© 2019 Codon"
-        />
+        /> */}
+        {/* <Footer
+          color="light"
+          size="normal"
+          logo={Logo}
+          copyright="© 2019 Codon"
+        /> */}
       </>
     </Router>
   );
