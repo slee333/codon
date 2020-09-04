@@ -10,7 +10,7 @@
     "analytics": "0.2.2",
     "bulma": "0.7.5",
     "gh-pages": "^2.1.1",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "query-string": "6.8.3",
     "react": "16.10.2",
     "react-dom": "16.10.2",
